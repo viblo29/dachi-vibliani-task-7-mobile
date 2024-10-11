@@ -49,8 +49,8 @@ body {
 }
 
 .box1-icon {
-  top: 20px;
-  right: 80px;
+  bottom: 90px;
+  left: 80px;
   z-index: 1;
   position: absolute;
 }
@@ -194,8 +194,8 @@ body {
 .box3-icon{
   position: absolute;
   z-index: 1;
-  top: 15px;
-  right: 20px;
+  top: 100px;
+  left: 20px;
 }
 
 .box3-icon-header {
@@ -265,8 +265,8 @@ body {
 .box4-icon{
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: 80px;
+  top: 40px;
+  right: 250px;
 }
 
 .box4-icon-header {
@@ -336,8 +336,8 @@ body {
 .box5-icon{
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: 20px;
+  top: 150px;
+  right: 40px;
 }
 
 .box5-icon-header {

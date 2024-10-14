@@ -25,6 +25,7 @@ body {
   margin: 24px;
   column-gap: 30px;
   row-gap: 24px;
+  height: 35%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:

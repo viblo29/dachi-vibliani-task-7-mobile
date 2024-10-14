@@ -21,6 +21,7 @@ body {
 }
 
 .grid-container {
+  width: 77%;
   display: grid;
   margin: 24px;
   column-gap: 30px;
@@ -48,8 +49,8 @@ body {
 }
 
 .box1-icon {
-  bottom: 80px;
-  left: 80px;
+  bottom: 30%;
+  left: 15%;
   z-index: 1;
   position: absolute;
 }
@@ -118,12 +119,11 @@ body {
   align-items: flex-start;
 }
 
-.box2-icon{
+.box2-icon {
   position: absolute;
   z-index: 1;
-  top: 15px;
-  right: 30px;
-
+  top: 5%;
+  right: 10%;
 }
 
 .box2-icon-header {
@@ -190,11 +190,11 @@ body {
   align-items: flex-start;
 }
 
-.box3-icon{
+.box3-icon {
   position: absolute;
   z-index: 1;
-  top: 80px;
-  left: 20px;
+  top: 25%;
+  left: 5%;
 }
 
 .box3-icon-header {
@@ -261,11 +261,11 @@ body {
   align-items: flex-start;
 }
 
-.box4-icon{
+.box4-icon {
   position: absolute;
   z-index: 1;
-  top: 40px;
-  right: 250px;
+  bottom: 25%;
+  right: 40%;
 }
 
 .box4-icon-header {
@@ -332,11 +332,11 @@ body {
   align-items: flex-start;
 }
 
-.box5-icon{
+.box5-icon {
   position: absolute;
   z-index: 1;
-  top: 150px;
-  right: 40px;
+  top: 20%;
+  right: 10%;
 }
 
 .box5-icon-header {
@@ -386,7 +386,7 @@ body {
   opacity: 0.7;
 }
 
-@media only screen and (max-width: 1155px) {
+@media only screen and (max-width: 870px) {
   * {
     padding: 0;
     margin: 0;
@@ -428,6 +428,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .box1-icon {
+    bottom: 30%;
+    left: 15%;
   }
 
   .box1-icon-header {
@@ -486,6 +491,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .box2-icon {
+    top: 5%;
+    right: 10%;
   }
 
   .box2-icon-header {
@@ -547,10 +557,16 @@ body {
     align-items: flex-start;
   }
 
+  .box3-icon {
+    top: 15%;
+    left: 5%;
+  }
+
   .box3-icon-header {
+    z-index: 2;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
     gap: 17px;
   }
@@ -603,6 +619,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .box4-icon {
+    right: 40%;
+    bottom: 25%;
   }
 
   .box4-icon-header {
@@ -662,6 +683,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .box5-icon {
+    top: 30%;
   }
 
   .box5-icon-header {
